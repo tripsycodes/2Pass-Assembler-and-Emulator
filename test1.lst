@@ -1,0 +1,11 @@
+PC: 00000001 | Machine Code:  | Statement: 
+PC: 00000002 | Machine Code:  | Statement: 
+PC: 00000003 | Machine Code: 00000000 | Statement: ldc : 0
+PC: 00000004 | Machine Code: FFFFFB00 | Statement: ldc : -5
+PC: 00000005 | Machine Code: 00000500 | Statement: ldc : +5
+PC: 00000006 | Machine Code: FFFFFC00000011 | Statement: br : loop
+PC: 00000007 | Machine Code: FFFFFE00000011 | Statement: br : next
+PC: 00000008 | Machine Code: 00000000 | Statement: data : 0
+PC: 00000009 | Machine Code: 00000000 | Statement: 
+PC: 0000000A | Machine Code: 00000300 | Statement: ldc : loop
+PC: 0000000B | Machine Code: 00000500 | Statement: ldc : var1

@@ -1,0 +1,79 @@
+PC: 00000001 | Machine Code: 00000000 | Statement: ldc : 0x1000
+PC: 00000002 | Machine Code: 0000000000000B | Statement: a2sp : 
+PC: 00000003 | Machine Code: FFFFFF0A | Statement: adj : -1
+PC: 00000004 | Machine Code: 00004B00 | Statement: ldc : result
+PC: 00000005 | Machine Code: 00000003 | Statement: stl : 0
+PC: 00000006 | Machine Code: 00004A00 | Statement: ldc : count
+PC: 00000007 | Machine Code: 00000004 | Statement: ldnl : 0
+PC: 00000008 | Machine Code: 0000010000000D | Statement: call : main
+PC: 00000009 | Machine Code: 0000010A | Statement: adj : 1
+PC: 0000000A | Machine Code: 00000000000012 | Statement: HALT : 
+PC: 0000000B | Machine Code: 00000000000000 | Statement: 
+PC: 0000000C | Machine Code: FFFFFD0A | Statement: adj : -3
+PC: 0000000D | Machine Code: 00000103 | Statement: stl : 1
+PC: 0000000E | Machine Code: 00000203 | Statement: stl : 2
+PC: 0000000F | Machine Code: 00000000 | Statement: ldc : 0
+PC: 00000010 | Machine Code: 00000003 | Statement: stl : 0
+PC: 00000011 | Machine Code: FFFFFF0A | Statement: adj : -1
+PC: 00000012 | Machine Code: 00000302 | Statement: ldl : 3
+PC: 00000013 | Machine Code: 00000003 | Statement: stl : 0
+PC: 00000014 | Machine Code: 00000102 | Statement: ldl : 1
+PC: 00000015 | Machine Code: 00000E0000000D | Statement: call : triangle
+PC: 00000016 | Machine Code: 0000010A | Statement: adj : 1
+PC: 00000017 | Machine Code: 00000302 | Statement: ldl : 3
+PC: 00000018 | Machine Code: 00000005 | Statement: stnl : 0
+PC: 00000019 | Machine Code: 00000302 | Statement: ldl : 3
+PC: 0000001A | Machine Code: 00000101 | Statement: adc : 1
+PC: 0000001B | Machine Code: 00000303 | Statement: stl : 3
+PC: 0000001C | Machine Code: 00000002 | Statement: ldl : 0
+PC: 0000001D | Machine Code: 00000101 | Statement: adc : 1
+PC: 0000001E | Machine Code: 00000003 | Statement: stl : 0
+PC: 0000001F | Machine Code: 00000002 | Statement: ldl : 0
+PC: 00000020 | Machine Code: 00000202 | Statement: ldl : 2
+PC: 00000021 | Machine Code: 00000000000007 | Statement: sub : 
+PC: 00000022 | Machine Code: FFFFEC00000010 | Statement: brlz : loop
+PC: 00000023 | Machine Code: 00000102 | Statement: ldl : 1
+PC: 00000024 | Machine Code: 0000030A | Statement: adj : 3
+PC: 00000025 | Machine Code: 0000000000000E | Statement: return : 
+PC: 00000026 | Machine Code: 00000000000000 | Statement: 
+PC: 00000027 | Machine Code: FFFFFD0A | Statement: adj : -3
+PC: 00000028 | Machine Code: 00000103 | Statement: stl : 1
+PC: 00000029 | Machine Code: 00000203 | Statement: stl : 2
+PC: 0000002A | Machine Code: 00000100 | Statement: ldc : 1
+PC: 0000002B | Machine Code: 00000000000008 | Statement: shl : 
+PC: 0000002C | Machine Code: 00000302 | Statement: ldl : 3
+PC: 0000002D | Machine Code: 00000000000007 | Statement: sub : 
+PC: 0000002E | Machine Code: 00000100000010 | Statement: brlz : skip
+PC: 0000002F | Machine Code: 00000302 | Statement: ldl : 3
+PC: 00000030 | Machine Code: 00000202 | Statement: ldl : 2
+PC: 00000031 | Machine Code: 00000000000007 | Statement: sub : 
+PC: 00000032 | Machine Code: 00000203 | Statement: stl : 2
+PC: 00000033 | Machine Code: 00000202 | Statement: ldl : 2
+PC: 00000034 | Machine Code: 0000110000000F | Statement: brz : one
+PC: 00000035 | Machine Code: 00000302 | Statement: ldl : 3
+PC: 00000036 | Machine Code: FFFFFF01 | Statement: adc : -1
+PC: 00000037 | Machine Code: 00000003 | Statement: stl : 0
+PC: 00000038 | Machine Code: FFFFFF0A | Statement: adj : -1
+PC: 00000039 | Machine Code: 00000102 | Statement: ldl : 1
+PC: 0000003A | Machine Code: 00000003 | Statement: stl : 0
+PC: 0000003B | Machine Code: 00000302 | Statement: ldl : 3
+PC: 0000003C | Machine Code: FFFFFF01 | Statement: adc : -1
+PC: 0000003D | Machine Code: FFFFE60000000D | Statement: call : triangle
+PC: 0000003E | Machine Code: 00000102 | Statement: ldl : 1
+PC: 0000003F | Machine Code: 00000003 | Statement: stl : 0
+PC: 00000040 | Machine Code: 00000103 | Statement: stl : 1
+PC: 00000041 | Machine Code: 00000302 | Statement: ldl : 3
+PC: 00000042 | Machine Code: FFFFE10000000D | Statement: call : triangle
+PC: 00000043 | Machine Code: 0000010A | Statement: adj : 1
+PC: 00000044 | Machine Code: 00000002 | Statement: ldl : 0
+PC: 00000045 | Machine Code: 00000000000006 | Statement: add : 
+PC: 00000046 | Machine Code: 00000102 | Statement: ldl : 1
+PC: 00000047 | Machine Code: 0000030A | Statement: adj : 3
+PC: 00000048 | Machine Code: 0000000000000E | Statement: return : 
+PC: 00000049 | Machine Code: 00000100 | Statement: ldc : 1
+PC: 0000004A | Machine Code: 00000102 | Statement: ldl : 1
+PC: 0000004B | Machine Code: 0000030A | Statement: adj : 3
+PC: 0000004C | Machine Code: 0000000000000E | Statement: return : 
+PC: 0000004D | Machine Code: 00000000000000 | Statement: 
+PC: 0000004E | Machine Code: 0000000A | Statement: data : 10
+PC: 0000004F | Machine Code: 00000000 | Statement: data : 0

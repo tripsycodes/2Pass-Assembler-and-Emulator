@@ -1,0 +1,13 @@
+Warnings:
+Warning: Unused label in line 6
+Warning: Unused label in line 9
+Warning: Halt flag not found in line 0
+
+Errors:
+Error: Extra operand provided in line 4
+Error: Extra operand provided in line 5
+Error: Duplicate label definition in line 7
+Error: Invalid mnemonic found: finally in line 7
+Error: Invalid mnemonic found: 0_done in line 8
+Error: Label: party used but not defined in line 6
+

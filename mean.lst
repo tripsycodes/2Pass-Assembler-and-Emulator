@@ -1,0 +1,6 @@
+PC: 00000001 | Machine Code:  | Statement: 
+PC: 00000002 | Machine Code: 00000C00 | Statement: ldc : 12
+PC: 00000003 | Machine Code: 00000401 | Statement: adc : 4
+PC: 00000004 | Machine Code: 00000005 | Statement: stnl : 0
+PC: 00000005 | Machine Code: 00000100 | Statement: ldc : 1
+PC: 00000006 | Machine Code: 00000000000009 | Statement: shr : 

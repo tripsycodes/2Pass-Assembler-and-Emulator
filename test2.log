@@ -1,0 +1,13 @@
+Warnings:
+Warning: Unused label in line 4
+
+Errors:
+Error: Duplicate label definition in line 4
+Error: Missing operand for one-operand mnemonic in line 7
+Error: Unexpected operand for zero-operand mnemonic in line 8
+Error: Extra operand provided in line 9
+Error: Invalid Label in line 10
+Error: Invalid mnemonic found: fibble in line 11
+Error: Invalid mnemonic found: 0def in line 12
+Error: Label: nonesuch used but not defined in line 5
+

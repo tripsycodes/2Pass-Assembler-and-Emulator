@@ -1,0 +1,6 @@
+PC: 00000001 | Machine Code:  | Statement: 
+PC: 00000002 | Machine Code:  | Statement: 
+PC: 00000003 | Machine Code: 0000004B | Statement: SET : 75
+PC: 00000004 | Machine Code: 00000000 | Statement: ldc : val
+PC: 00000005 | Machine Code: 00000201 | Statement: adc : val2
+PC: 00000006 | Machine Code: 00000042 | Statement: SET : 66

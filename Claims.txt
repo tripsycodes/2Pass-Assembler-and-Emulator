@@ -1,0 +1,132 @@
+/*****************************************************************************
+TITLE: Claims																																
+AUTHOR: Tripit Jain (2301CS60)
+Declaration of Authorship
+This txt file, claims.txt, is part of the assignment of CS2102 at the 
+department of Computer Science and Engg, IIT Patna . 
+*****************************************************************************/
+
+Files:
+==========
+*All the files I submitted, asm.cpp and claims.txt, have my name and student id at the start, along with a declaration of authorship.
+
+The evidence for Assembler including the output files from the four test examples given (test1 to test4) and bubblesort has also been uploaded. They are test1(3 output files), test2(1 output file), test3(3 output files), 
+test4(3 output files) and bubble_sort(3 output files) and two additional tests (mean and sum of 4 numbers) (with output files). All the test files have been tested and work properly. 
+
+
+Compilation instructions:
+=========================
+
+    * Input file must be present in the same folder where the code is executed and should be of .asm format for assembler and .o format for emulator
+    * Ouput files -> (file_name).log and (file_name).lst file and if there are no errors then (file_name).o file 
+
+
+Assumptions:
+============
+    * Mnemonic named “data” is always used at the end of assembly code.
+    * Object file(.o) is generated only when there are no errors in the input Assembly code,  
+      otherwise only Error file (.log) is generated.
+
+
+=============================
+Program format and structure:
+=============================
+1. The assembler:
+    
+    * Every instruction is implemented.
+    * It contains a table of instruction names and expected operands.
+    * It is a 2 pass assembler (implemented in asm.cpp)
+    * outputs the required correct information in the form of three files
+       *  .log file for errors and warnings
+       *  .lst file for listing 
+       *  .o file for machine code object
+    * All important errors are diagnosed and corresponding error file gets generated (named (file_name).log)
+    * consistent and sensible formatting with sensible program structure. 
+    * sensible variable, function & type names with explanatory comments.
+		* Advanced listing file gets generated. (named (file_name).lst)
+		* assembles test programs (including bubble sort)
+        * Machine code object file gets generated (named (file_name).o)
+	  * SET instruction is also implemented (which carries extra marks).
+    * Additional tests with outputs is also included
+
+
+=============================
+Testing:
+=============================
+
+1. The assembler:
+
+I have tested seven examples(4 test files, mean, sum of 4(n) numbers and bubblesort) shown as bellow. The errors only occurred in the file test2.asm. 
+
+The others were tested without any errors detected and produced three output files, listing file, 
+error log file and machine readable object file, for each example.
+
+1)
+#Input: test1.asm
+#Output: 
+a. test1.lst 
+b. test1.log (without any error messages)
+c. test1.o
+
+2)
+#Input: test2.asm
+#Output: 
+a. test2.log (with error messages shown as below and also in log file)
+
+error messages:
+Error: Duplicate label definition in line 4
+Error: Missing operand for one-operand mnemonic in line 7
+Error: Unexpected operand for zero-operand mnemonic in line 8
+Error: Extra operand provided in line 9
+Error: Invalid Label in line 10
+Error: Invalid mnemonic found: fibble in line 11
+Error: Invalid mnemonic found: 0def in line 12
+Error: Label: nonesuch used but not defined in line 5
+
+3)
+#Input:asm test3.asm
+#Output: 
+a. test3.lst 
+b. test3.log (without any error messages)
+c. test3.o
+
+4)
+#Input: test4.asm
+#Output: 
+a. test4.lst 
+b. test4.log (without any error messages)
+c. test4.o
+
+5)
+#Input: bubble_sort.asm
+#Output: 
+a. bubble_sort.lst 
+b. bubble_sort.log (without any error messages)
+c. bubble_sort.o
+
+Additional Tests:
+=================
+6) 
+#Input: mean.asm
+#Output:
+a. mean.log (with error messages shown as below and also in log file)
+b. mean.log (without any error messages)
+c. mean.o
+
+7) 
+#Input: test.asm
+#Output:
+a. test.lst
+
+Warnings:
+Warning: Unused label in line 6
+Warning: Unused label in line 9
+Warning: Halt flag not found in line 0
+
+Errors:
+Error: Extra operand provided in line 4
+Error: Extra operand provided in line 5
+Error: Duplicate label definition in line 7
+Error: Invalid mnemonic found: finally in line 7
+Error: Invalid mnemonic found: 0_done in line 8
+Error: Label: party used but not defined in line 6
